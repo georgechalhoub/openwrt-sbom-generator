@@ -1,19 +1,3 @@
-#!/usr/bin/env python3
-
-###############################################################################
-#
-# sbom-openwrt.py -- utility for cycloneDX SBOM generation of OpenWRT builds
-# used for security monitoring and notification for OpenWrt.
-#
-# Copyright (C) 2021 Timesys Corporation
-# Copyright (C) 2022 ads-tec Engineering GmbH
-#
-#
-# This source is released under the MIT License.
-#
-#######################################################################################
-
-
 """
 usage: sbom-openwrt.py [-h] [-b BDIR] [-o ODIR] [-d DIFF] [-i INCLUDE_NON_CPES] [-v GIT,SVN] [-D ENABLE-DEBUG]
                             [-I WRITE-intermediate] [-N MANIFEST_REPORT_NAME] [-k KCONFIG] [-u UCONFIG] [-A ADDL]
